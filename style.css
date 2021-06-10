@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(aquamarine 0%, aqua 100%);
+    padding: 200px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#img1 {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.links {
+    color: beige;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 20;
+}
+#and{
+    font-size: 30px;
+}
+#vk{
+    font-size: 40px;
+    font-weight:bold;
+}
+#ab{
+    font-size: 40px;
+    font-weight:bold;
+    margin-top: 50px
+}
+#main_head{
+    font-size: 30px;
+}
+h3{
+   font-weight: bold;
+    color: darkblue;
+    font-size: 30px
+}
+#stats{
+    padding-top: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img-ins{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;  
+}
+img:hover{
+    transform: scale(0.9);
+}
+li {
+  display: inline;
+}
+ul {
+  background-color: #dddddd;
+}
